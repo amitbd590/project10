@@ -1,0 +1,55 @@
+/*Home*/
+.active {
+        color: #fff !important;
+        text-decoration: underline !important;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); // hardware acceleration of CSS animation
+}
+#Slide_section {
+	background: url(../img/header-bg.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	
+}
+#Slide_section .slider-overlay{
+	background: rgba(0,0,0,0.7);
+	height: 500px;
+	position: absolute;
+	width: 100%;
+	
+}
+#service-section .fa {
+font-size: 100px;
+color: #FED136;
+}
+
+
+#Team img{
+width: 200px
+}
+
+
+
+#map-section{
+	background: url(../img/map-image.png);
+	background-color: #212529;
+	height: 550px;
+	position: relative;
+	background-attachment: fixed;
+}
+
+
+#map-section .map-overlay{
+	background: rgba(0,0,0,0.7);
+	height: 550px;
+	position: absolute;
+	width: 100%;}
+
+#footer-section .fa {
+	font-size: 30px;
+}
